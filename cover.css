@@ -11,9 +11,9 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: rgba(0,0,0,0);
+  color: #ffffff;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+  background-color: rgba(255,255,255,.3);
   border: 1px solid #fff;
 }
 
