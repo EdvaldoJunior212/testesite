@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 ul#album {
-	position: center;
-	width: 1000px;
+	width: 800px;
 	margin: 0 auto;
 	padding: 50px;
 	overflow: hidden;
@@ -10,7 +9,7 @@ ul#album {
 }
 
 ul#album li {
-	float: left;
+	float: center;
 	width: 200px;
 	height: 200px;
 	margin: 10px;
