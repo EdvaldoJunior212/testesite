@@ -9,7 +9,7 @@ ul#album {
 }
 
 ul#album li {
-	float: center;
+	float: top;
 	width: 200px;
 	height: 200px;
 	margin: 10px;
