@@ -9,7 +9,7 @@ a:hover {
   color: #fff;
 }
 
-/* Custom default button */
+/* Botões */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #00BDCE;
 }
 body {
   color: #fff;
