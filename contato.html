@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="favicon.jpg">
+		<title>SiteTeste - Contato</title>
+		<link href="bootstrap.min.css" rel="stylesheet">
+		<link href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<link href="cover.css" rel="stylesheet">
+		<script src="ie-emulation-modes-warning.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	</head>
+<body>
+<div class="site-wrapper">
+
+	<div class="site-wrapper-inner">
+	
+		<div class="cover-container">
+		
+			<div class="masthead clearfix">
+			
+				<div class="inner">
+				
+					<h3 class="masthead-brand">Empresa</h3>
+					
+						<nav>
+
+							<ul class="nav masthead-nav">
+	
+								<li><a href="index.html">Início</a></li>
+								<li><a href="sobre.html">Sobre</a></li>
+								<li class="active"><a href="contato.html">Contato</a></li>
+							</ul>
+						</nav>
+				</div>
+			</div>
+
+<div class="innercover"><br>
+
+	<form method="post" id="fContato" action="mailto:EdvaldoJunior212@hotmail.com" oninput="calc_total();">
+		<fieldset class="usuuario" id="usuario">
+			<legend>Identificação do Usuário</legend>
+				<p><label for="cNome">Nome:</label> <input type="text" name="tNome  size="20" id="cNome" maxlength="50" placeholder="Nome Completo"/></p>
+				<p><label for="Email">E-mail:</label> <input type="email" name="tEmail" id="Email" size="20" maxlength="50" placeholder="E-mail"/></p>
+				<p><label for="Pass">Telefone:</label> <input type="text" name="tTelefone" id="cTelefone" size="20" maxlength="11" placeholder="Telefone"/></p>
+					<fieldset id="sexo"><legend>Sexo:</legend>
+						<input type="radio" name="tSexo" id="Mas" checked/><label for="Mas">Masculino | </label>
+						<input type="radio" name="tSexo" id="Fem"/><label for="Fem">Feminino</label>
+					</fieldset>
+						<input type="submit" value="Enviar"/>
+		</fieldset>
+	</form>
+	
+</div><br>
+
+<div class="mastfoot">
+	<div class="inner">
+		<p>| &copy; Copyright | <a href="https://www.facebook.com/profile.php?id=100015252752601" target="_blank">Edvaldo Júnior</a> |</p>
+	</div>
+</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
+<script src="bootstrap.min.js"></script>
+<script src="ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>
